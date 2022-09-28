@@ -1,5 +1,8 @@
-var rock
-var paper
-var scissors
+var rps = ["R", "P", "S"];
+// rps[0], rps[1], rps[2] = R P S
+var userInput;
+var computerInput;
+var wins = 0;
+var losses = 0;
+var ties = 0;
 
-var rps = [gets "r", "p", "s",]
