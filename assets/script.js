@@ -46,6 +46,7 @@ function rockPaperScissors(){
             console.log("You're stupid");
         }
     }
+
     if (userInput == "S")
     {
         if (computerInput == "R")
@@ -66,3 +67,14 @@ function rockPaperScissors(){
         }
     }
 }
+
+userInput = prompt("Please input one of the follow:\nR, P, or S");
+
+// console.log(Math.floor(10.99999)); // 10
+// console.log(Math.random());
+// 0 -> 0.9999999999999999999999999999999999
+// console.log(Math.floor(Math.random()));
+var index = Math.floor(Math.random() * rps.length)
+computerInput = rps[index]; 
+// console.log("This is user input: " + userInput);
+// console.log("This is computer input: " + computerInput);
